@@ -40,9 +40,6 @@ vLightPos = (GLfloat * 4)(-80.0, 120.0, 100.0, 0.0)
 
 textures = (GLuint * 4)()
 
-# Some api in the chain is translating the keystrokes to this octal string
-# so instead of saying: ESCAPE = 27, we use the following.
-ESCAPE = b'\033'
 SPACE = b' '
 
 # Number of the glut window.
